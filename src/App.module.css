@@ -1,0 +1,63 @@
+.wrapper {
+  background: transparent;
+  width: 736px;
+  height: 287px;
+  margin: 60px auto 0 auto;
+}
+
+.info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  margin-bottom: 24px;
+}
+
+.task {
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.done {
+  color: var(--purple);
+  font-weight: 700;
+}
+
+.counter {
+  margin-left: 8px;
+  padding: 0.2px 7px;
+  font-weight: 700;
+  background: var(--gray-400);
+  border-radius: 9px;
+}
+
+.empty {
+  justify-content: center;
+  display: grid;
+
+  border-radius: 8px;
+  border-top: 2px solid var(--gray-400);
+  padding: 0 24px;
+  margin-bottom: 64px;
+
+  color: var(--gray-300);
+}
+
+.taskContainer {
+  border-radius: 8px;
+  margin-bottom: 64px;
+}
+
+.clipboardIcon {
+  color: blue;
+  width: 56px;
+  height: 56px;
+
+  margin-left: 40%;
+  margin-top: 64px;
+  margin-bottom: 16px;
+}
+
+.bold {
+  font-weight: 700;
+}
