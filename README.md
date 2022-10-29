@@ -7,7 +7,7 @@ O Todo é um projeto de controle de tarefas todo-list que adiciona tarefas, marc
 
 O projeto trabalha conceitos de:
  - Estados
- - Imatabilidade de estadps
+ - Imutabilidade de estados
  - Listas e chaves no ReactJS
  - Propriedades
  - Componentização
